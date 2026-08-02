@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arnav Shyam — Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">arnav<span class="cursor-blink">_</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">home</a>
+      <a href="projects.html" class="nav-link">projects</a>
+      <a href="about.html" class="nav-link">about</a>
+      <a href="contact.html" class="nav-link">contact</a>
+    </div>
+  </nav>
+
+  <div class="page">
+    <section class="hero">
+      <p class="hero-eyebrow">~/portfolio $ whoami</p>
+      <h1 class="hero-name">Arnav Shyam</h1>
+      <p class="hero-role"><span id="hero-role-text"></span><span class="cursor-blink">_</span></p>
+      <p class="hero-desc">
+        I build full-stack web applications and AI-powered systems —
+        from REST APIs to RAG pipelines — with a focus on shipping
+        things that actually work.
+      </p>
+      <div class="hero-actions">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2 class="section-title"><span class="mono-label">featured/</span></h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="card-tab"><span class="dot"></span>ai-document-qa.jsx</div>
+          <div class="card-body">
+            <h3>AI Document Q&A</h3>
+            <p class="card-tagline">Chat with your PDFs using RAG</p>
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">LLM</span>
+            </div>
+            <a href="https://github.com/shaym2024arnav-eng/ai-document-qa" target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="card-tab"><span class="dot"></span>ai-reasoning-assistant.jsx</div>
+          <div class="card-body">
+            <h3>AI Reasoning Assistant</h3>
+            <p class="card-tagline">Five-agent architecture for structured problem solving</p>
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Multi-Agent</span>
+            </div>
+            <a href="https://github.com/shaym2024arnav-eng/Aireasoningassistant" target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="card-tab"><span class="dot"></span>code-snippet-manager.jsx</div>
+          <div class="card-body">
+            <h3>Code Snippet Manager</h3>
+            <p class="card-tagline">Save, organize, and search reusable code</p>
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">SQLite</span>
+              <span class="tag">Express</span>
+            </div>
+            <a href="https://github.com/shaym2024arnav-eng/code-snippet-manager" target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <footer>~/portfolio $ built by Arnav Shyam, 2026</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
